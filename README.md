@@ -3,9 +3,9 @@
 ## Description
 
 These are a small set of functional patterns written in Java. The idea was to gather some useful abstractions 
-from Scala and coded them in Java. 
+from Scala and coded them into Java. 
 
-It is just a proof of concept, but I think they can fit well in any Java project, especially in those that use Java 7-
+These patterns could fit well in any Java project, especially in those that use Java 7 or lower
 
 ## Patterns
 
@@ -15,8 +15,8 @@ It is just a proof of concept, but I think they can fit well in any Java project
 - Try
 - ErrorHandler
 
-Some implementations are very similar to Scala ones and others are conceptually adapted to Java.
+Some implementations are very similar to the Scala ones and others are conceptually adapted to Java.
 
 ## Dependencies
 
-- Google Guava (just only `Optional`)
+- Google Guava (just only `Optional` and `Function`)
