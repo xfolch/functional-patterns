@@ -186,12 +186,7 @@ public abstract class Try<T> {
             }
 
             /**
-             * Converts a {@link com.google.common.base.Function}
-             *
-             * @param function
-             * @param <S>
-             * @param <D>
-             * @return
+             * Transforms a {@link com.google.common.base.Function} from Guava into our function abstraction
              */
             public static <S, D> Function<S, D> from(final com.google.common.base.Function<S, D> function) {
                 return new Function<S, D>() {
